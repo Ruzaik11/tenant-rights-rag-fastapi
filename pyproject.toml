@@ -4,5 +4,10 @@ version = "0.1.0"
 requires-python = ">=3.12,<3.14"
 dependencies = [
     "fastapi",
+    "fastembed>=0.8.1",
+    "numpy>=2.5.3",
+    "pydantic-settings>=2.15.0",
+    "pymupdf>=1.28.2",
+    "pymupdf4llm>=1.28.2",
     "uvicorn[standard]",
 ]
